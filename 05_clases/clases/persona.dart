@@ -11,7 +11,7 @@ class Persona {
     //para evitar eso, validomos que si bio es null, entonces retorne el texto
     return _bio ?? 'No hay valor';
   }
-  
+
   //ARROW FUNCTION
   //String get bio => _bio ?? 'No hay valor';
   
@@ -29,6 +29,10 @@ class Persona {
   //set bio (String texto) => _bio = texto; 
   
   //Constructores
+
+  Persona(){
+    
+  }
   
   //metodos
  
